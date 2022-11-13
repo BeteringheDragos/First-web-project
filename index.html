@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Beteringhe Dragos Daniel</title>
+
+    <script src="main.js">
+    </script>
+</head>
+<body>
+    <div id="container">
+
+        <header>
+            <div class="title">
+                <h1>Dragos' Project</h1>
+            </div>
+            <br>
+            <div class="navi">
+                <button class="button-29" role="button" onClick="quotesClick()">Random Quotes Machine</button>
+                <button class="button-29" role="button" onClick="phfClick()">PHF Game</button>
+                <button class="button-29" role="button" onClick="counterClick()">Click counter</button>
+                <button class="button-29" role="button" onClick="otherClick()">Others</button>
+               </div>
+        </header>
+
+        <main>
+
+            <div class="quotes-container" role="alert">
+                <h2>Press the button to get a new quote</h2>
+          <p class="quoteView">Here will be the quote</p>
+          <button class="button-21" onClick=newQuote()>New Quote</button>
+        </div>
+
+        <div class="counter-container">
+            <h1 class="title">Count your clicks</h1>
+            <h3>0</h3>
+         <div class="buttons-box">
+       <button class="button-21" id="decrement" onClick="onDecrementClick()">Decrement</button>
+       <button class="button-21" id="reset" onClick="onResetClick()">Reset</button>
+       <button class="button-21" id="increment" onClick="onIncrementClick()">Increment</button>
+       </div>
+       </div>
+
+       <div class="phf-container">
+        <h2>Piatra - Hartie - Foarfeca</h2>
+        <ol>
+            <li>Computer:<span id="computer"> <strong>Press Play</strong></span></li>
+            <li>User:<span id="user"> <strong>Press Play</strong></span></li>
+        </ol>
+        <h4>Winner:<span id="winner"></span></h4>
+        <button class="button-21" onclick="phfGame()">Play</button>
+       </div>
+
+       <div class="others-container">
+        <h2>Examples of templates</h2>
+        <div class="buttons-box">
+            <a href="/form-example/index.html" class="button-21" target="_blank">Form Box Model</a>
+            <a href="/website template/index.html" class="button-21" target="_blank">Website Template</a>
+        </div>
+       </div>
+
+        </main>
+
+        <footer>
+            
+                <p>&copy; Beteringhe Dragos Daniel	</p>
+                <h4>Contact</h6>
+                <ul class="contact">
+                    <li><a class="contact-link" href="https://www.instagram.com/dragos_daniel_/" target="_blank">Instagram</a></li>
+                    <li><a class="contact-link" href="https://www.facebook.com/dragosdaniel24/" target="_blank">Facebook</a></li>
+                    <li><a class="contact-link" href="mailto:beteringhe.dragosdaniel@gmail.com">Email</a></li>
+                </ul>
+            
+        </footer>
+        
+
+    </div>
+    
+   
+</body>
+</html>

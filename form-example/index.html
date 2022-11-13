@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DOM Manipulation Homework xD</title>
+  </head>
+  <body>
+    <div id="validated">✅Your data has been submited</div>
+    <div class="box">
+      <div class="box-content">
+        <div class="left-box">
+          <form class="form-allign" id="trimite">
+            <input
+              type="text"
+              id="fname"
+              placeholder="First name"
+            /><br /><br />
+
+            <input type="text" id="lname" placeholder="Last name" />
+            <div>
+              <p id="gen">Gender</p>
+              <label>Male</label>
+              <input type="radio" name="gender" id="male" value="male" /><br />
+              <label>Female</label>
+              <input type="radio" name="gender" id="female" value="female" />
+            </div>
+            <br /><br />
+            <textarea id="textarea"> Leave your message here...</textarea><br />
+
+            <div class="btn-poz">
+              <input
+                class="sub-btn"
+                type="button"
+                value="Submit"
+                id="submit"
+                onclick="main()"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="right-box">
+          <img src="akita.jpg" alt="akita inu" />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
